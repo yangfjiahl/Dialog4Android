@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="dimen5">5dp</dimen>
+    <dimen name="dimen20">20dp</dimen>
+    <dimen name="dimen30">30dp</dimen>
+    <dimen name="dimen32">32dp</dimen>
+    <dimen name="dimen40">40dp</dimen>
+    <dimen name="dimen48">48dp</dimen>
+    <dimen name="dimen120">120dp</dimen>
+    <dimen name="font40">40sp</dimen>
+    <dimen name="font48">48sp</dimen>
+    <dimen name="large_font">24sp</dimen>
+    <dimen name="normal_font">18sp</dimen>
+    <dimen name="small_font">16sp</dimen>
+
+</resources>

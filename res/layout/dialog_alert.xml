@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_shape"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/alert_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/alert_title"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/small_font" />
+
+    <TextView
+        android:id="@+id/alert_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/normal_font" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:contentDescription="@string/imageViewContent"
+        android:src="@android:color/white" />
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#aa000000"
+        />
+
+    <TextView
+        android:id="@+id/alert_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:paddingTop="@dimen/dimen5"
+        android:text="@string/ok"
+        android:textColor="@drawable/btn_selector"
+        android:textSize="@dimen/small_font" />
+
+</LinearLayout>

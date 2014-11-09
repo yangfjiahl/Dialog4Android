@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Dialog4Android</string>
+	<string name="alert">Alert</string>
+	<string name="confirm">Confirm</string>
+	<string name="alert_title">Alert</string>
+	<string name="imageViewContent">imageViewContent</string>
+	<string name="ok">ok</string>
+	<string name="cancel">cancel</string>
+</resources>
